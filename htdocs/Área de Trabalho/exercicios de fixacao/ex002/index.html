@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
+        <title>Desafio PHP</title>
+</head>
+
+<body>
+    <main>
+        <picture style="display: flex;">
+            <img src="static/dolar.png" style="display: block; margin: auto; width: 125px;">
+                <h1>Conversor de moedas para Dólar!</h1>
+        </picture>
+        <form action="conversao.php" method="get">
+            <label for="din">Quantos R$ você tem na carteira ?</label>
+            <input type="number" name="din" id="din" step="0.01">
+            <input type="submit" value="Converter">
+        </form>
+    </main>
+</body>
+
+</html>
